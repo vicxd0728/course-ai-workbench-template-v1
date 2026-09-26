@@ -6,9 +6,9 @@ const buildStages = [
   {
     id: "get-template", number: "01", title: "取得模板", time: "約 5 分鐘",
     purpose: "取得講師提供的完整專案，先盤點現況，不從空白手動建立檔案。",
-    prerequisites: ["講師提供的 ZIP 或 GitHub 模板網址", "不含公司正式資料的練習資料夾", "Node.js 20 以上版本"],
+    prerequisites: ["可連線 GitHub，或已取得講師備援 ZIP", "不含公司正式資料的練習資料夾", "Node.js 20 以上版本"],
     commands: [
-      { label: "GitHub 取得方式（有網址時）", language: "終端機", value: `git clone <講師提供的模板網址>
+      { label: "GitHub 取得方式", language: "終端機", value: `git clone https://github.com/vicxd0728/course-ai-workbench-template-v1.git
 cd course-ai-workbench-template-v1` },
       { label: "唯讀盤點指令", language: "Codex", value: `你是我的課堂建置助手。請先只讀取目前資料夾，不要修改任何檔案。
 
@@ -25,7 +25,7 @@ cd course-ai-workbench-template-v1` },
     ],
     expected: "AI 能列出既有工作台、三案例、人工決策、任務、結果回流與兩種 adapter，而不是提議重寫系統。",
     checks: ["看得到 package.json、src、tests", "AI 指出主要修改位置", "沒有把範例模式說成已部署"],
-    failures: ["沒有 GitHub 網址：使用講師提供的離線 ZIP，完整解壓後再開啟。", "找不到 package.json：回到含 package.json 的模板根目錄。", "Node.js 不存在：改用離線備援，不在課堂中重裝環境。"]
+    failures: ["GitHub 無法連線：使用講師提供的離線 ZIP，完整解壓後再開啟。", "找不到 package.json：回到含 package.json 的模板根目錄。", "Node.js 不存在：改用離線備援，不在課堂中重裝環境。"]
   },
   {
     id: "start-local", number: "02", title: "啟動本機系統", time: "約 8 分鐘",
