@@ -1,7 +1,7 @@
 # AI 業務工作台模板 V1｜驗證紀錄
 
 > 日期：2026-09-26  
-> 狀態：local course template verified；cloud acceptance pending
+> 狀態：local course template verified；Cloudflare desktop readback verified
 
 ## 已通過
 
@@ -36,10 +36,17 @@
 - 北辰工具、海港設備、遠景貿易三個案例仍保留。
 - 瀏覽器 console：0 errors、0 warnings。
 
+### GitHub／Cloudflare live readback
+
+- GitHub 公開儲存庫已建立：`https://github.com/vicxd0728/course-ai-workbench-template-v1`。
+- Cloudflare Pages 已部署：`https://course-ai-workbench-template-v1.pages.dev/`。
+- 正式 `guide.html` 已線上讀回，八階段、三案例與主要按鈕可見。
+- 正式首頁與 `guide.html` 的 console 均為 0 errors／warnings。
+- 線上複製按鈕已顯示「已複製」回饋。
+
 ## 尚未驗證
 
-- 正式 GitHub 儲存庫與 Cloudflare Pages 部署。
-- 正式 HTTPS `guide.html` 網址與 QR Code。
+- 實體手機掃描 PPT QR、手機操作與無痕視窗完整驗收。
 - 真實 Supabase 專案連線與 Email magic-link 登入。
 - A 使用者無法讀取 B 使用者資料的實際 RLS 測試。
 - 電腦寫入、手機讀取、手機更新、電腦讀回。
@@ -50,5 +57,5 @@
 - UI draft：已實作。
 - Local course template：已驗證。
 - QR instruction center：本機已驗證。
-- Cloud prototype：未驗證。
+- Cloud static prototype：桌機線上讀回已驗證；資料庫與跨裝置未驗證。
 - Course template：等待 Vic 檢視與實際試教，不標示 locked／accepted。

@@ -1,7 +1,11 @@
 # 課堂操作中心｜GitHub＋Cloudflare Pages 發布步驟
 
 > 目的：把「操作練習＋指令卡」發布成學員可用手機開啟的 HTTPS 網址。  
-> 本文件只是發布操作清單；目前尚未建立 GitHub 儲存庫，也尚未部署。
+> 目前模板已發布；本文同時保留給學員建立自己版本時使用。
+
+- GitHub：<https://github.com/vicxd0728/course-ai-workbench-template-v1>
+- Pages 首頁：<https://course-ai-workbench-template-v1.pages.dev/>
+- QR 指令中心：<https://course-ai-workbench-template-v1.pages.dev/guide.html>
 
 ## 發布前確認
 
@@ -48,8 +52,8 @@ Build output directory: dist
 依序用無痕視窗與手機開啟：
 
 ```text
-https://你的-pages-網址/
-https://你的-pages-網址/guide.html
+https://course-ai-workbench-template-v1.pages.dev/
+https://course-ai-workbench-template-v1.pages.dev/guide.html
 ```
 
 至少確認：

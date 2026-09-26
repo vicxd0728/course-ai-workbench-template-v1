@@ -9,6 +9,10 @@
 
 GitHub＋Cloudflare Pages 的發布步驟見 `CLOUDFLARE_DEPLOYMENT.md`。
 
+- GitHub：<https://github.com/vicxd0728/course-ai-workbench-template-v1>
+- 公開操作頁：<https://course-ai-workbench-template-v1.pages.dev/>
+- 公開建置控制台：<https://course-ai-workbench-template-v1.pages.dev/guide.html>
+
 ## 兩種模式
 
 - 範例模式：沒有 `.env` 也能操作，資料只保存在目前瀏覽器。
@@ -34,7 +38,7 @@ GitHub＋Cloudflare Pages 的發布步驟見 `CLOUDFLARE_DEPLOYMENT.md`。
 - UI：draft prototype。
 - 本機範例模式：已實作並完成 Desktop／390px Mobile 操作驗證。
 - Supabase adapter 與 RLS schema：已實作，待連接真實測試專案。
-- Cloudflare Pages：尚未部署。
+- Cloudflare Pages：已部署並完成桌機線上讀回；實體手機掃碼仍待課堂前確認。
 - Vic 視覺與操作接受：待確認。
 
 詳細證據見 `VERIFICATION.md`。

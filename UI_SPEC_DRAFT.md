@@ -91,4 +91,4 @@ open / waiting / needs_review
 - 390px Mobile rendered preview。
 - Vic 對欄位、按鈕、順序、手機行為與禁用行為的確認。
 - Supabase 實際跨裝置測試。
-- Cloudflare Pages 實際部署讀回。
+- Cloudflare Pages 已完成桌機線上讀回；實體手機掃碼與跨裝置仍待驗證。
